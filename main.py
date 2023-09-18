@@ -16,7 +16,7 @@ if __name__ == "__main__":
 
     #Enviar email 
     sender_email = input("Enter sender email: ")
-    password = 'dpbsjtooyjbkicng'
+    password = input("Enter password: ")
     receiver_email = input("Enter receiver email: ")
     
     send_email(sender_email, password, receiver_email)
